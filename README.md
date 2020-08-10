@@ -19,7 +19,10 @@ Execution example:
 Installation:
 ------------
 
-1. For DSSP 13-class alphabet prediction - change the APP_PATH in preprocess.py to the current directory.
+1. Download the models to folder ./models/rw13/
+   The tar.gz file is in https://www.cs.bgu.ac.il/~siditom/ssp_models.tar.gz
+
+2. For DSSP 13-class alphabet prediction - change the APP_PATH in preprocess.py to the current directory.
 
 
 Execution: 
