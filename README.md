@@ -1,6 +1,6 @@
-#########################################################
-######################   README  ########################
-#########################################################
+#########################################################<br/>
+######################   README  ########################<br/>
+#########################################################<br/>
 
 MeshiRWSSP is a software for 8-alphabet / 13-alphabet secondary structure prediction of proteins.
 
@@ -13,13 +13,13 @@ It is based on Iddo Drori et. al. (https://arxiv.org/abs/1811.07143) DL models.
 Execution example:
 -----------------
 
->> python predict.py ./test/6bf4C.fasta ./test/6bf4C.mtx
+\>\> python predict.py ./test/6bf4C.fasta ./test/6bf4C.mtx
 
 
 Installation:
 ------------
 
-1. Download the models to folder ./models/rw13/
+1. Download the models to folder ./models/rw13/ <br/>
    The tar.gz file is in https://www.cs.bgu.ac.il/~siditom/ssp_models.tar.gz
 
 2. For DSSP 13-class alphabet prediction - change the APP_PATH in preprocess.py to the current directory.
@@ -30,11 +30,11 @@ Execution:
 
 [App Name] [fasta file] [profile] [Optional - ]
 
-(*) This version operates only on a single target sequence. 
-(*) The sequence length in the fasta file must be the same as the profile length.
+* This version operates only on a single target sequence. 
+* The sequence length in the fasta file must be the same as the profile length.
 
 
 Perliminaries:
 -------------
-(*) python3.4
-(*) python packages: Keras2.0, pandas, numpy, TCN, re, pickle,json 
+* python3.4
+* python packages: Keras2.0, pandas, numpy, TCN, re, pickle,json 
